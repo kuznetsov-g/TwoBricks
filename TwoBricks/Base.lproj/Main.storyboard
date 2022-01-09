@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cec-92-zxq" userLabel="Red View">
-                                <rect key="frame" x="20" y="44" width="374" height="394"/>
+                                <rect key="frame" x="20" y="54" width="374" height="389"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hKe-QC-JCj" userLabel="Green View">
-                                <rect key="frame" x="20" y="476" width="374" height="386"/>
+                                <rect key="frame" x="20" y="481" width="374" height="381"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
@@ -30,7 +30,7 @@
                         <constraints>
                             <constraint firstItem="cec-92-zxq" firstAttribute="height" secondItem="hKe-QC-JCj" secondAttribute="height" multiplier="1.02073" id="DVo-sY-arj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cec-92-zxq" secondAttribute="trailing" constant="20" id="GMo-UH-okS"/>
-                            <constraint firstItem="cec-92-zxq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ISu-h5-sxu"/>
+                            <constraint firstItem="cec-92-zxq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ISu-h5-sxu"/>
                             <constraint firstItem="hKe-QC-JCj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LQY-1V-nV5"/>
                             <constraint firstItem="cec-92-zxq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LqQ-ZC-ste"/>
                             <constraint firstItem="cec-92-zxq" firstAttribute="width" secondItem="hKe-QC-JCj" secondAttribute="width" id="PCl-uA-UH4"/>
